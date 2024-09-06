@@ -34,6 +34,6 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
-          echo git config user.name '$pwd ' ,' $ifconfig'.
+          echo git config user.name $pwd  ,$ifconfig.
           echo git config user.email.
           
